@@ -4,6 +4,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Interface-FF4B4B)
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-green)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Llama--3-yellow)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 **ArchéoRAG** est un outil open-source conçu pour aider les archéologues, chercheurs et responsables de Centres de Conservation et d'Étude (CCE) à interroger la "littérature grise" (rapports de fouilles, publications) à l'aide de l'Intelligence Artificielle, de manière éthique, traçable et sans hallucination.
 
