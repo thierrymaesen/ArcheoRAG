@@ -1,0 +1,16 @@
+# Environnements virtuels
+venv/
+env/
+.env
+
+# Fichiers de bases de données locales
+chroma_db_st/
+chroma_db/
+
+# Fichiers temporaires de l'application
+temp_rapport.pdf
+rapport.pdf
+
+# Fichiers cache Python
+__pycache__/
+*.pyc
