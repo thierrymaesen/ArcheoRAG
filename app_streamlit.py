@@ -40,7 +40,7 @@ with st.sidebar:
     st.markdown(
         """
         <small>Vous n'avez pas de clé ? C'est 100% gratuit.</small><br>
-        <small>👉 <a href="https://huggingface.co/join" target="_blank">Créer un compte</a> puis allez dans <b>Settings > Access Tokens</b> pour en générer une.</small>
+        <small>👉 <a href="https://huggingface.co/join" target="_blank">Créer un compte</a> puis allez dans <b>Settings > Access Tokens</b> pour générer une clé (type <b>Read</b>).</small>
         """, 
         unsafe_allow_html=True
     )
