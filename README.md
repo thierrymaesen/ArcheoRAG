@@ -84,5 +84,3 @@ L'interface s'ouvrira automatiquement dans votre navigateur. Insérez votre clé
 **Thierry Maesen** - Développeur Python & IA 
 - [Mon GitHub](https://github.com/thierrymaesen)
 
-Open chat
-Dismiss
