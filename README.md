@@ -8,6 +8,10 @@
 
 **ArchéoRAG** est un outil open-source conçu pour aider les archéologues, chercheurs et responsables de Centres de Conservation et d'Étude (CCE) à interroger la "littérature grise" (rapports de fouilles, publications) à l'aide de l'Intelligence Artificielle, de manière éthique, traçable et sans hallucination.
 
+## 🌐 Démo en ligne
+
+👉 **Le projet est visible et utilisable en ligne ici :** [https://archeorag.streamlit.app/](https://archeorag.streamlit.app/)
+
 ## 🎯 Le Concept
 L'outil utilise une architecture **RAG** (Retrieval-Augmented Generation). Au lieu de se fier aux connaissances générales et parfois erronées d'un modèle d'IA, ArchéoRAG :
 1. Lit votre rapport PDF (localement ou via une URL publique comme HAL).
@@ -79,3 +83,6 @@ L'interface s'ouvrira automatiquement dans votre navigateur. Insérez votre clé
 ## 👤 Auteur
 **Thierry Maesen** - Développeur Python & IA 
 - [Mon GitHub](https://github.com/thierrymaesen)
+Claude is active in this tab group
+Open chat
+Dismiss
