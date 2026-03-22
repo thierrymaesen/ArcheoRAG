@@ -33,8 +33,17 @@ if "hf_token" not in st.session_state:
 with st.sidebar:
     st.header("⚙️ Configuration")
     
-    # Champ sécurisé pour la clé API (elle ne sera pas sauvegardée sur GitHub !)
-    api_key = st.text_input("Clé API Hugging Face (hf_...)", type="password", value=st.session_state.hf_token)
+    # Champ sécurisé pour la clé API
+    api_key = st.text_input("🔑 Clé API Hugging Face (hf_...)", type="password", value=st.session_state.hf_token)
+    
+    # Petit message d'aide avec le lien pour les nouveaux utilisateurs
+    st.markdown(
+        """
+        <small>Vous n'avez pas de clé ? C'est 100% gratuit.</small><br>
+        <small>👉 <a href="https://huggingface.co/join" target="_blank">Créer un compte</a> puis allez dans <b>Settings > Access Tokens</b> pour en générer une.</small>
+        """, 
+        unsafe_allow_html=True
+    )
     if api_key:
         st.session_state.hf_token = api_key
         os.environ["HUGGINGFACEHUB_API_TOKEN"] = api_key
