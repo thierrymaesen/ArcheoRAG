@@ -152,3 +152,18 @@ if question:
                         
             except Exception as e:
                 st.error(f"❌ Erreur de connexion au modèle IA : {e}")
+# ==========================================
+# FOOTER / CRÉDITS
+# ==========================================
+st.divider()
+st.markdown(
+    """
+    <div style='text-align: center; color: gray;'>
+        Créé par <b>Thierry Maesen</b><br>
+        <a href="https://github.com/thierrymaesen/ArcheoRAG" target="_blank" style="text-decoration: none;">
+            🔗 Voir le code source sur GitHub
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
