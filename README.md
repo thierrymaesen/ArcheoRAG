@@ -83,6 +83,6 @@ L'interface s'ouvrira automatiquement dans votre navigateur. Insérez votre clé
 ## 👤 Auteur
 **Thierry Maesen** - Développeur Python & IA 
 - [Mon GitHub](https://github.com/thierrymaesen)
-Claude is active in this tab group
+
 Open chat
 Dismiss
